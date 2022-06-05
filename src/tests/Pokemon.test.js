@@ -1,8 +1,9 @@
-test('', () => {});
 import React from 'react';
 import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../utils/RenderWithRouter';
 import App from '../App';
+
+test('', () => {});
 
 describe('Teste o componente <Pokemon.js />', () => {
   it('O nome correto do Pokémon deve ser mostrado na tela', () => {
